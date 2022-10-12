@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.pin-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100px;
+}
+
+.pin-container svg {
+  margin: 50px 0 0;
+}
+
+.location-container {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-container p {
+  width: 100px;
+}
+
+.progress-container {
+  display: flex;
+}
+
+.information-container {
+  padding: 80px;
+}
