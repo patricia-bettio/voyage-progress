@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/voyage-progress/static/css/main.ae6d2f7a.css",
-    "main.js": "/voyage-progress/static/js/main.c75fcb78.js",
+    "main.js": "/voyage-progress/static/js/main.6311da3a.js",
     "static/js/787.79921e20.chunk.js": "/voyage-progress/static/js/787.79921e20.chunk.js",
     "index.html": "/voyage-progress/index.html",
     "main.ae6d2f7a.css.map": "/voyage-progress/static/css/main.ae6d2f7a.css.map",
-    "main.c75fcb78.js.map": "/voyage-progress/static/js/main.c75fcb78.js.map",
+    "main.6311da3a.js.map": "/voyage-progress/static/js/main.6311da3a.js.map",
     "787.79921e20.chunk.js.map": "/voyage-progress/static/js/787.79921e20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae6d2f7a.css",
-    "static/js/main.c75fcb78.js"
+    "static/js/main.6311da3a.js"
   ]
 }
