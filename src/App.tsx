@@ -20,13 +20,12 @@ function App(props: VoyageProps) {
   } = props;
   
   const [getPin, setPin] = useState(Number);
-
   const currentTime = "12:00:00"; //Change
   const totalTime = moment.duration(moment(arrivalTime,"HH:mm:ss").diff(moment(departureTime,"HH:mm:ss")))
   const ellapsedTime = moment.duration(moment(arrivalTime, "HH:mm:ss").diff(moment(currentTime, "HH:mm:ss")));
   const ellapsedTimeRatio = 100 - (ellapsedTime.asMilliseconds() * 100 / totalTime.asMilliseconds())
 
-  let containerRef = useRef<HTMLElement>();
+  let containerRef = useRef<HTMLDivElement>(null);
   useEffect(()=> {
     let stages = containerRef.current?.childNodes.length;
     if (stages) {
